@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+    <header>
+      <nav class="navbar navbar-expand-lg bg-black bg-opacity-75 py-3 shadow">
+        <div class="container  d-flex justify-content-between align-items-center">
+          <div class="leftNav ">
+            <a class="navbar-brand text-white fw-bolder m-2" href="./index.html">
+              <img src="./images/logo.png" alt="Logo" width="50" height="40" class="d-inline-block align-text-top me-1">
+              Weather
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          
+          <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active text-white-50 btn btn-info rounded-3" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50 btn btn-outline-info rounded-3 mx-3"  href="#">Contact</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link text-white-50 btn btn-outline-info rounded-3"  href="#">About Us</a>
+              </li>               
+            </ul>
+          </div>
+        </div>
+          
+      </nav>
+        
+    </header>
+    <main class="weathergb  d-flex flex-column justify-content-evenly py-5 " >
+      
+
+      <div class=" d-flex w-50 mt-3 mx-auto  py-5">
+        <input type="search" id="searchInput"  class="form-control bg-dark bg-opacity-50 rounded-4 me-1 " placeholder="Find your location..." >
+        <button id="btnSearch" class="btn btn-info  rounded-4 w-25">Find</button>
+      </div>
+      <div class="container py-4">
+        <div id="dataRow" class="row g-1 d-flex   ">
+         
+        </div>
+      </div>
+      
+      
+    </main>
+    <footer>
+      <div class="bg-black bg-opacity-75 p-3 container-fluid ">
+        <div class="container row g-2 text-center mx-auto  d-flex justify-content-around align-items-center">
+          <div class="sub col-md-6 d-flex flex-column justify-content-around align-items-start  my-1 ">
+            <div class="col-12 d-flex w-75 p-3 mx-md-auto ">
+              <input type="search" id="searchSubscribe"  class="form-control bg-dark-subtle bg-opacity-50 rounded-4 me-1" placeholder="Enter your email to subscribe..." >
+              <button id="btnSubscribe" class="btn btn-outline-warning rounded-4 w-auto ">Subscribe</button>
+            </div>
+            <div class="col-12  mt-1">
+              <p class="text-white-50">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+          </div>
+          <div id="wFooterIcon" class="col-md-6 fs-5 my-2">
+            <div>
+              <a href="#" class="btn btn-outline-secondary rounded-5 me-4"><i class="fa-brands fa-facebook-f text-warning "></i></a>
+              <a href="#" class="btn btn-outline-secondary rounded-5 me-4"><i class="fa-brands fa-twitter text-warning "></i></a>
+              <a href="#" class="btn btn-outline-secondary rounded-5 me-4"><i class="fa-brands fa-google-plus-g text-warning "></i></a>
+              <a href="#" class="btn btn-outline-secondary rounded-5"><i class="fa-brands fa-pinterest text-warning  "></i></a>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </footer>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>

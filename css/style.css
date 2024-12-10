@@ -1,0 +1,12 @@
+
+
+
+
+.weathergb {
+    background-image: url(../images/weatherBg1.jpg);
+    background-position: 100%, 100%;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    
+}
