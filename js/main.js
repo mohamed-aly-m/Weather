@@ -16,7 +16,12 @@ async function getWeather(city) {
         allWeather = data.forecast.forecastday;
         
         displayAllWeather(data);
+        clrSearch();
     }
+}
+
+function clrSearch(){
+    searchInput.value = "";
 }
 
 function displayAllWeather(data) {
